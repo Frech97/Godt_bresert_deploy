@@ -21,7 +21,7 @@ jobs:
       run: dotnet publish -c Release -o release
 
     - name: Fix base href
-      run: sed -i 's/<base href="\/" \/>/<base href="\/godt_bresert_deploy\/" \/>/' release/wwwroot/index.html
+      run: sed -i 's/<base href="\/" \/>/<base href="\/godt_bresert_deploy\/" \/>/' release/wwwroot/404.html
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
