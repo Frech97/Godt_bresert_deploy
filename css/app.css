@@ -13,9 +13,10 @@ h1:focus {
 }
 
 .bakgrunn {
-    background-image: linear-gradient(180deg, #44556e 0%, #222b45 100%);
+    background: linear-gradient(180deg, #49120d 0%, #38435f 100%);
     display: flex;
     flex-direction: column;
+    background-attachment: fixed;
 }
 
 .dark_table, .dark_table th, .dark_table td {
