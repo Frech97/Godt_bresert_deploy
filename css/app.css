@@ -17,6 +17,7 @@ h1:focus {
     display: flex;
     flex-direction: column;
     background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .dark_table, .dark_table th, .dark_table td {
