@@ -1,24 +1,47 @@
 /* /Layout/MainLayout.razor.rz.scp.css */
+html[b-wk1y8di30z], body[b-wk1y8di30z] {
+    height: 100%;
+    margin: 0;
+}
+
 .page[b-wk1y8di30z] {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* ensures full screen height */
+}
+
+/* Make main content grow to fill space above footer */
+main[b-wk1y8di30z] {
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
 
-.footer-logo[b-wk1y8di30z] {
+/* Footer styling */
+.footer-section[b-wk1y8di30z] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* <-- align left */
+    padding: 1rem 2rem; /* <-- adds left/right padding */
+    width: 100%;
+    margin-top: auto;
+    height: auto;
+    min-height: 40px;
+}
+/* Floating logo stays fixed */
+.footer-logo-floating[b-wk1y8di30z] {
     position: fixed;
     bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 150px; /* adjust */
-    display: flex;
-    justify-content: right;
-    padding-right: 5px;
-    align-items: center;
-    z-index: 0;
+    right: 0;
+    height: auto;
+    max-height: 12vh; /* responsive height relative to viewport */
+    width: auto;
     opacity: 0.5;
     pointer-events: none;
+    z-index: 10;
 }
+
+
 .header[b-wk1y8di30z] {
     height: 10rem; /* tall header */
     display: flex;
@@ -30,8 +53,6 @@
     background-blend-mode: overlay;
     background-color: #49120d;
 }
-
-
 
 main[b-wk1y8di30z] {
     flex: 1;

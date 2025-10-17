@@ -5,7 +5,10 @@ html, body {
     color: #d7d7d7; /* light text */
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
+    height: 100%;
 }
 
 h1:focus {
@@ -179,4 +182,130 @@ h1, h2, h3, h4, h5, h6, p {
 .mud-dialog-backdrop {
     transition: opacity 0.5s ease !important;
     opacity: 0.8; /* semi-transparent background */
+}
+
+.bakcgroundimage-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* full screen height */
+    background-image: url("/Lokale-eks.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bakcgroundimage-overlay {
+    position: relative; /* so it scrolls with content */
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.35); /* optional translucent overlay */
+    padding: 1rem;
+}
+
+    .bakcgroundimage-overlay h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+    }
+
+    .bakcgroundimage-overlay p {
+        font-size: 1.5rem;
+        max-width: 700px;
+    }
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .bakcgroundimage-section {
+        height: 80vh;
+        background-position: center top;
+    }
+
+    .bakcgroundimage-overlay h1 {
+        font-size: 2rem;
+    }
+
+    .bakcgroundimage-overlay p {
+        font-size: 1rem;
+    }
+}
+
+.social-icons {
+    position: absolute;
+    right: 4rem;
+    display: flex;
+    gap: 0.5rem; /* space between icon boxes */
+}
+
+.icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem; /* space inside the box */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* subtle border */
+    border-radius: 0.5rem; /* rounded corners */
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+    .icon-box:hover {
+        transform: translateY(-2px) scale(1.05);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        border-color: #f2e9e4; /* highlight on hover */
+    }
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .social-icons {
+        position: static;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
+}
+
+
+.full-width-section {
+    width: 100%; /* slightly narrower */
+    max-width: 1920px; /* prevents stretching too far on large screens */
+    margin: 0 auto; /* center horizontally */
+}
+
+.full-card {
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.hover-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    border-radius: 0.5rem;
+}
+
+    .hover-card:hover {
+        transform: translateY(-3px) scale(1.03);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .full-card {
+        min-height: 10rem;
+        padding: 1rem;
+    }
+}
+
+.menu-frame {
+    border: 1px solid #000; /* thin black line */
+    padding: 2rem; /* space between cards and border */
+    border-radius: 12px; /* optional rounded corners */
 }
