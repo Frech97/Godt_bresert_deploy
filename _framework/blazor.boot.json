@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "godt_bresert_main",
   "resources": {
-    "hash": "sha256-0JpdmpkNyGfgH73yN4AO9W4Cqc17qDCiNc9N4P1W4dI=",
+    "hash": "sha256-jX5pIwQl4GO+cV/qvZPQ4cEgczz9eVSQ6amfzsV3Me4=",
     "jsModuleNative": {
       "dotnet.native.8.0.1.6pozwh9p5r.js": "sha256-SGOlISx+3G4kkvpC9Uq3qoPGsnjxGmW61QBev0lyI5U="
     },
@@ -18,7 +18,7 @@
     },
     "assembly": {
       "Blazored.SessionStorage.wasm": "sha256-nQXuCGHos7iwp2WxRUgarKmWgJYChaVQp2NajgNU3V8=",
-      "godt_bresert_main.wasm": "sha256-r7gpnkPW79agOQrdmHXz+JEfo8qcdJy2CNw26HSZPwk=",
+      "godt_bresert_main.wasm": "sha256-v0fvb5Jp9f49IiEm6SM8ebdSoY5+gB5S7lVI1YhWwh8=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-MJmu+SK6dzJ7+VG7MTI1bNvwxLegBeDORyoemEATcO4=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-FsQx1B6G1hhHaj6akaNJLw+r/YX6sgk6nFnC9ZY8aQs=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-N3pQgQgXFVvjXjh8hLRl5sSYtvWMHsuTG0rD2+8CCSA=",

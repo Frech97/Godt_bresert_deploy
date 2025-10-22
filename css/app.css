@@ -339,3 +339,12 @@ h1, h2, h3, h4, h5, h6, p {
     }
 }
 
+/* Make tabs shrink on small screens */
+.responsive-tabs .mud-tabs-toolbar {
+    flex-wrap: wrap; /* Wrap headers to next line if needed */
+}
+
+.responsive-tabs .mud-tab {
+    font-size: 0.8rem; /* smaller font on small screens */
+    min-width: 80px; /* reduce min-width so more tabs fit */
+}
