@@ -28,18 +28,30 @@ main[b-wk1y8di30z] {
     height: auto;
     min-height: 40px;
 }
-/* Floating logo stays fixed */
+/* Floating footer logo */
 .footer-logo-floating[b-wk1y8di30z] {
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 0.5rem;
+    right: 0.5rem;
     height: auto;
-    max-height: 12vh; /* responsive height relative to viewport */
+    max-height: 12vh; /* good size for desktop */
     width: auto;
     opacity: 0.5;
     pointer-events: none;
     z-index: 10;
 }
+
+/* Mobile and small screens */
+@media (max-width: 640px) {
+    .footer-logo-floating[b-wk1y8di30z] {
+        bottom: 1rem;
+        right: 0.25rem;
+        max-height: 16vh; /* fixed: enough room to show the full logo */
+        opacity: 0.6;
+        transform: translateX(-5%);
+    }
+}
+
 
 
 .header[b-wk1y8di30z] {
