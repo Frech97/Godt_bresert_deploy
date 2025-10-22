@@ -339,12 +339,21 @@ h1, h2, h3, h4, h5, h6, p {
     }
 }
 
-/* Make tabs shrink on small screens */
-.responsive-tabs .mud-tabs-toolbar {
-    flex-wrap: wrap; /* Wrap headers to next line if needed */
+/* Compact tab headers */
+.responsive-tabs .mud-tab {
+    min-width: auto !important;
+    padding: 0.25rem 0.75rem !important;
+    font-size: 0.8rem !important;
 }
 
-.responsive-tabs .mud-tab {
-    font-size: 0.8rem; /* smaller font on small screens */
-    min-width: 80px; /* reduce min-width so more tabs fit */
+    /* Make icons smaller */
+    .responsive-tabs .mud-tab .mud-icon-root {
+        font-size: 1rem !important;
+        margin-right: 4px;
+    }
+@media (max-width: 768px) {
+    .responsive-tabs .mud-tab {
+        font-size: 0.7rem !important;
+        padding: 0.2rem 0.4rem !important;
+    }
 }
