@@ -46,6 +46,18 @@
     </div>
     <script src="_framework/blazor.webassembly.js"></script>
     <script src="_content/MudBlazor/MudBlazor.min.js"></script> <!-- ✅ Must be AFTER blazor.webassembly.js -->
+    <script>
+        window.blazorGetWindowWidth = () => {
+            return window.innerWidth;
+        };
+
+        window.blazorAddResizeListener = (dotNetObj) => {
+            window.addEventListener('resize', () => {
+                dotNetObj.invokeMethodAsync('UpdateWidth', window.innerWidth);
+            });
+        };
+    </script>
+
 </body>
 
 </html>
