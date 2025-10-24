@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "godt_bresert_main",
   "resources": {
-    "hash": "sha256-v2zBa86DHP3Fg4HtPpi8AfEwECsefF+DhL9r5IhYmb0=",
+    "hash": "sha256-FatcQzwrrOMfBVPz4DLB0LgBo/xfW64nNCJUn8tNPzg=",
     "jsModuleNative": {
       "dotnet.native.8.0.1.6pozwh9p5r.js": "sha256-SGOlISx+3G4kkvpC9Uq3qoPGsnjxGmW61QBev0lyI5U="
     },
@@ -18,9 +18,8 @@
     },
     "assembly": {
       "Blazored.SessionStorage.wasm": "sha256-nQXuCGHos7iwp2WxRUgarKmWgJYChaVQp2NajgNU3V8=",
-      "godt_bresert_main.wasm": "sha256-+s9k+s0+/9ZlBKMnzsa4aztVKiWXaoVRw1N94qsnae8=",
-      "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-MJmu+SK6dzJ7+VG7MTI1bNvwxLegBeDORyoemEATcO4=",
-      "Microsoft.AspNetCore.Components.wasm": "sha256-FsQx1B6G1hhHaj6akaNJLw+r/YX6sgk6nFnC9ZY8aQs=",
+      "godt_bresert_main.wasm": "sha256-PntbnnkYPg/TGK7n/dBbNWX2W/Swvk+N8xb9YFRbRFs=",
+      "Microsoft.AspNetCore.Components.wasm": "sha256-31UlRM6D+w6WDmRdVEU2F1KYoBUTTaieGmIZxLnWiSY=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-N3pQgQgXFVvjXjh8hLRl5sSYtvWMHsuTG0rD2+8CCSA=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-TdrguElPSQn2N0ePJOR6rcOToF56gwGqeZepF4mTN9Q=",
       "Microsoft.Data.Sqlite.wasm": "sha256-3qgSj8F4gkNI8njq9U4Xdmv3LIFAJ59sD0EosyrNB3M=",
@@ -44,7 +43,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-D30p7uf65iataqEVVva3IxGXI6xJTnP8oyhPfJp5ct0=",
       "Microsoft.JSInterop.wasm": "sha256-WOjd0HEFnGDydqbnNZ+tMkg6N+mbxdfEOJPMOeuNnog=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-kK1C5aZNP04/J2VXbLVCt75KEqPneRBXTFEYlAdluzk=",
-      "MudBlazor.wasm": "sha256-zwDKcFM2nySF83XVdjbKRq7ba3XLtzB/KLwBQ2lFJAk=",
+      "MudBlazor.wasm": "sha256-nm3byFRAXeEcUxqKvbNfS27oLKokOL7rqrWcm+e1eao=",
       "netstandard.wasm": "sha256-YUhQ8wY0uOW5RjzsmulVefj1BJwQQQ2XHq1Gnq1Ngc4=",
       "SQLitePCLRaw.batteries_v2.wasm": "sha256-r5pUQvWwdp1MxZ7qFfD4+L+mh0WmE7DrApFw8tLgXLA=",
       "SQLitePCLRaw.core.wasm": "sha256-aT9iJxIXrYsk8FoIIsd6aHViCVRd9BN56E6BlayaAI4=",
@@ -54,7 +53,7 @@
       "System.Collections.NonGeneric.wasm": "sha256-Y8SPnHnf4a9TmuwGVBYGMpOn4HJMYCeFTdrZ4NpIQ0w=",
       "System.Collections.Specialized.wasm": "sha256-r+dujoxC7RBi6Yp7ZLvnHiqVPQWuzZLqsS+2wW2/2K8=",
       "System.Collections.wasm": "sha256-3ddsp60s+0MVPN31iQunbTcqESR5Gpj2qQ5x1UIzdmU=",
-      "System.ComponentModel.Annotations.wasm": "sha256-a7OQXgRDtWwwrUjxoyCpP39tr0oAyE9tzGwTkgIbEOs=",
+      "System.ComponentModel.Annotations.wasm": "sha256-HTIs+P486Y/LCepKwPUUMZGpW5odmQ1Z7YbvQRuKP2o=",
       "System.ComponentModel.Primitives.wasm": "sha256-kWyu4733HOwLN626jkp3Cmx3AqIPkhw1Z8z5GpmCfb8=",
       "System.ComponentModel.TypeConverter.wasm": "sha256-UFBM+3ODNzfWScDAyQ+W0z0iSlGERvO66kj05PIXEmo=",
       "System.ComponentModel.wasm": "sha256-WVfEriIm690nq63A/Ymf5qgTpRFZ/TV5ghnt1zzz6h8=",
@@ -69,12 +68,12 @@
       "System.Linq.Expressions.wasm": "sha256-rtP+txk3svGiNBaqqGH7ixE6gaq48AjPiH1bD1fy1k0=",
       "System.Linq.Queryable.wasm": "sha256-bZbYwWUFioSw1SZY15zGPbjZHet+Wyk9QHCgP21yHO4=",
       "System.Linq.wasm": "sha256-AEOql8Ds1Q9us7ghqDru1U/8Oo62QzNFwyhjX/c6oaQ=",
-      "System.Memory.wasm": "sha256-JZhmef/3jhYJpXB8zW/rng0nkddhwAiWLU7LrvdcYjE=",
+      "System.Memory.wasm": "sha256-ZUnNoSurN8mlIMCdCUjOFkbo0C7cqvj8HfFUjQ5QJ2A=",
       "System.Net.Http.wasm": "sha256-xab1xI5fDEZS3vsXaHssstobUzLWjxH2KaP4pzCDt34=",
       "System.Net.NetworkInformation.wasm": "sha256-u6BNg44vY2T9i+Hioq4TGfNImyffmUAN22J5qlKOC4g=",
       "System.Net.Primitives.wasm": "sha256-Nu6m3MQIUuJEzGVfV0iFN01Z7TZHC4pV560Q2K38J3E=",
       "System.ObjectModel.wasm": "sha256-b3s38g6tDs/T4X2M732Nx5dbMQD/L0IYQ2SsDzoCDOc=",
-      "System.Private.CoreLib.wasm": "sha256-9KR6lySWvbp68c0+LmqalGqyPG8puU+J7vSPMbPKPIQ=",
+      "System.Private.CoreLib.wasm": "sha256-suolZQedq8x6A1nz2BK2ihMTvyURkvM7fgYJk8vj7LE=",
       "System.Private.Uri.wasm": "sha256-rCqAgkPC83VKu1BShANxvU8n7AljSN7AOtGgGo6VQ/o=",
       "System.Private.Xml.wasm": "sha256-R0wKKZkagL13IeMpwmdqcFyeYXZfgZuDpp0u72DKIzM=",
       "System.Runtime.InteropServices.JavaScript.wasm": "sha256-R+97liBo/DJjks50Sa0m37XrTjVl87GVVHePdbrF1QY=",
