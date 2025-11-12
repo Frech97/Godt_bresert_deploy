@@ -358,6 +358,31 @@ h1, h2, h3, h4, h5, h6, p {
     }
 }
 
+/* Unified team photo frame + variants */
+.team-photo {
+    width: 100%;
+    max-width: 260px;     /* keeps images visually consistent */
+    border-radius: 12px;  /* card-friendly rounded rectangle */
+    object-fit: cover;    /* crop gracefully without distortion */
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+/* Portrait (e.g., 944x2046) */
+.team-photo.portrait {
+    aspect-ratio: 9 / 16;
+}
+
+/* Landscape (e.g., 1200x799) */
+.team-photo.landscape {
+    aspect-ratio: 3 / 2;
+}
+
+@media (max-width: 480px) {
+    .team-photo { max-width: 200px; }
+}
+
+
 .contact-card {
     color: white;
     border-radius: 16px;
