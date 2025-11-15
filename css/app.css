@@ -1,6 +1,75 @@
-/* ----------------- Base Styles ----------------- */
+
+@font-face {
+    font-family: "Eyesome Script";
+    src: url("/fonts/Eyesome-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Eyesome Script";
+    src: url("/fonts/Eyesome-Italic.otf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Eyesome Script Handwritten";
+    src: url("/fonts/Eyesome-Script.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("/fonts/CormorantGaramond-Italic-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("/fonts/CormorantGaramond-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Body text / normal text (Typo.body1, Typo.body2, etc.) */
+body,
+.mud-typography-body1,
+.mud-typography-body2 {
+    font-family: "Cormorant Garamond", serif;
+}
+
+.mud-typography-h1 {
+    font-family: "Eyesome Script Handwritten", serif !important;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+/* Smaller headings */
+.mud-typography-h2,
+.mud-typography-h3,
+.mud-typography-h4 {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+}
+
+/* Buttons (Typo.button) */
+.mud-typography-button {
+    font-family: "Cormorant Garamond", serif;
+    text-transform: none;
+    font-weight: 600;
+}
+
+/* Captions, overline etc. */
+.mud-typography-caption,
+.mud-typography-overline {
+    font-family: "Cormorant Garamond", serif;
+}
+
+
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-image: linear-gradient(180deg, #44556e 0%, #222b45 100%);
     color: #d7d7d7; /* light text */
     margin: 0;
@@ -9,6 +78,20 @@ html, body {
     flex-direction: column;
     min-height: 100vh;
     height: 100%;
+}
+
+body, p, li, span {
+    font-family: "Cormorant Garamond", serif;
+}
+
+
+h2, .logo-text {
+    font-family: "Cormorant Garamond", serif !important;
+}
+
+h1 {
+    font-family: "Eyesome Script Handwritten", serif !important;
+    letter-spacing: 0.5px;
 }
 
 h1:focus {
@@ -358,30 +441,6 @@ h1, h2, h3, h4, h5, h6, p {
     }
 }
 
-/* Unified team photo frame + variants */
-.team-photo {
-    width: 100%;
-    max-width: 260px;     /* keeps images visually consistent */
-    border-radius: 12px;  /* card-friendly rounded rectangle */
-    object-fit: cover;    /* crop gracefully without distortion */
-    display: block;
-    margin: 0 auto 1rem;
-}
-
-/* Portrait (e.g., 944x2046) */
-.team-photo.portrait {
-    aspect-ratio: 9 / 16;
-}
-
-/* Landscape (e.g., 1200x799) */
-.team-photo.landscape {
-    aspect-ratio: 3 / 2;
-}
-
-@media (max-width: 480px) {
-    .team-photo { max-width: 200px; }
-}
-
 
 .contact-card {
     color: white;
@@ -525,8 +584,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 28rem; 
-    max-width: 22rem;
+    min-height: 28rem;
     margin: auto;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
